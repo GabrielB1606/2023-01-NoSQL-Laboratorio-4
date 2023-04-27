@@ -16,6 +16,4 @@ CREATE TABLE cars (
   carb int
 );
 
-CREATE INDEX cars_name_idx ON cars (name);
-
 COPY cars (name, mpg, cyl, disp, hp, drat, wt, qsec, vs, am, gear, carb) FROM '/mtcars.csv' WITH HEADER = true;
