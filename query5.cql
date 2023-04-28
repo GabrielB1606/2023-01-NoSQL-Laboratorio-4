@@ -1,0 +1,1 @@
+SELECT AVG(wt) FROM cars WHERE carb > 2 ALLOW FILTERING;
